@@ -1,114 +1,348 @@
 
-       @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
 
-       body{
-           background-color: #EEC8C8;
-           font-family: Arial, Helvetica, sans-serif;
-       }
-       
-       .container{
-           background-color:lightblue;
-           padding: 1%;
-       }
-       
-       h1{
-           color: rgb(51, 17, 186);
-       }
-       
-       .container h3{
-           background-color: aquamarine;
-           color: brown;
-           padding: 1%;
-           font-style: italic;
-           text-decoration: underline;
-           text-transform: uppercase;
-           letter-spacing: 0.2em;
-           word-spacing: 0.8em;
-       }
-       
-       /* div {
-           font-size: 10px;
-       } */
-       
-       p{
-           color: hsl(339, 87%, 20%);
-           font-family: 'Imperial Script', Helvetica, sans-serif;
-           font-size: 1.6rem;
-           font-weight: bold;
-           line-height: 1.6em;
-       }
-       
-       #second-p{
-           color: blue;
-           font-family: Arial, Helvetica, sans-serif;
-           font-size: 1rem;
-           font-weight: 800;
-       }
-       
-       #box-model{
-           background-color:lightgrey;
-           width: 300px;
-           border: 15px solid black;
-           padding: 50px;
-           /* margin: 20px; */
-       
-           /* margin-top: 5px;
-           margin-right: 10px;
-           margin-bottom: 5px;
-           margin-left: 10px; */
-       
-           /* margin: 5px 10px 5px 10px; */
-           margin: 5px 10px;
-       }
-       
-       .categories{
-           border: 1px solid rgb(92, 85, 85);
-           padding: 10px;
-           border-radius: 15px;
-       }
-       
-       .categories h2{
-           text-align: center;
-       }
-       
-       .categories ul{
-           padding: 0;
-           list-style: none;
-       }
-       
-       .categories a{
-           text-decoration: none;
-           color: black;
-       }
-       
-       .categories a:hover{
-           text-decoration: underline;
-           color: red;
-       }
-       
-       .categories li{
-           padding-bottom: 6px;
-           border-bottom: 1px dotted #333;
-       }
-       
-       .my-form{
-           padding: 20px;
-       }
-       
-       .my-form .form-group{
-           padding-bottom: 15px;
-       }
-       
-       .my-form label{
-           display: block;
-       }
-       
-       .my-form input[type="text"], .my-form textarea{
-           padding: 8px;
-           width: 100%;
-       }
-       
-       .button:hover{
-           background: chartreuse;
-           cursor: pointer;
-       }
+      body{
+          background-color: #EEC8C8;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .container{
+          background-color:lightblue;
+          padding: 1%;
+      }
+      
+      h1{
+          color: rgb(51, 17, 186);
+      }
+      
+      .container h3{
+          background-color: aquamarine;
+          color: brown;
+          padding: 1%;
+          font-style: italic;
+          text-decoration: underline;
+          text-transform: uppercase;
+          letter-spacing: 0.2em;
+          word-spacing: 0.8em;
+      }
+      
+      /* div {
+          font-size: 10px;
+      } */
+      
+      p{
+          color: hsl(339, 87%, 20%);
+          font-family: 'Imperial Script', Helvetica, sans-serif;
+          font-size: 1.6rem;
+          font-weight: bold;
+          line-height: 1.6em;
+      }
+      
+      #second-p{
+          color: blue;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 1rem;
+          font-weight: 800;
+      }
+      
+      #box-model{
+          background-color:lightgrey;
+          width: 300px;
+          border: 15px solid black;
+          padding: 50px;
+          /* margin: 20px; */
+      
+          /* margin-top: 5px;
+          margin-right: 10px;
+          margin-bottom: 5px;
+          margin-left: 10px; */
+      
+          /* margin: 5px 10px 5px 10px; */
+          margin: 5px 10px;
+      }
+      
+      .categories{
+          border: 1px solid rgb(92, 85, 85);
+          padding: 10px;
+          border-radius: 15px;
+      }
+      
+      .categories h2{
+          text-align: center;
+      }
+      
+      .categories ul{
+          background: #ffe5e5;
+          padding: 0;
+          list-style-type: circle;
+          margin-left: 35px;
+      }
+
+      .categories{
+        border: 1px solid rgb(71, 1, 1);
+        padding: 10px;
+        border-radius: 15px;
+      }
+
+      .categories h3{
+        text-align: center;
+    }
+
+      .categories ol{
+        background: #cce5ff;
+        padding: 0;
+        list-style-type: digits;
+        margin-left: 35px;
+    }
+      
+      .categories a{
+          text-decoration: none;
+          color: black;
+      }
+      
+      .categories a:hover{
+          text-decoration: underline;
+          color: red;
+      }
+      
+      .categories li{
+          padding-bottom: 6px;
+          border-bottom: 1px dotted #333;
+      }
+      
+      .my-form{
+          padding: 20px;
+      }
+      
+      .my-form .form-group{
+          padding-bottom: 15px;
+      }
+      
+      .my-form label{
+          display: block;
+      }
+      
+      .my-form input[type="text"], .my-form textarea{
+          padding: 8px;
+          width: 100%;
+      }
+      
+      .button1:hover{
+          background: chartreuse;
+          cursor: pointer;
+      }
+
+      .button1{
+          background-color: #aa0794;
+          border: 1px solid Green;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 10px;
+          margin: 4px 2px;
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+
+      .button2:hover{
+        background: rgb(1, 73, 73);
+        cursor: pointer;
+    }
+
+    .button2{
+        background-color: #740303;
+        border: 1px solid black;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        margin: 4px 2px;
+    }
+
+    .button3:hover{
+        background: rgb(193, 224, 12);
+        cursor: pointer;
+    }
+
+    .button3{
+        background-color: #777006;
+        border: 1px solid black;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 12px;
+        font-size: 16px;
+        margin: 4px 2px;
+    }
+
+    .button4:hover{
+        background: rgb(4, 87, 45);
+        cursor: pointer;
+    }
+
+    .button4{
+        background-color: #09035f;
+        border: 1px solid black;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 50%; 
+        font-size: 19px;
+        margin: 4px 2px;
+    }
+
+    .button5 {
+        position: relative;
+        background-color: #4CAF50;
+        border: none;
+        font-size: 28px;
+        color: #FFFFFF;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+      }
+
+    .button5:after {
+        content: "";
+        background: #0ab46d;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -20px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+      }
+      
+      .button5:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s;
+        display: block;
+      }
+
+      .button6 {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        font-style: Bold;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px rgb(117, 60, 60);
+      }
+      
+      .button6:hover {background-color: #052006}
+      
+      .button6:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px rgb(117, 24, 24);
+        transform: translateY(4px);
+      }
+
+      .btn-group .button9 {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        float: left;
+      }
+      
+      .btn-group .button9:hover {
+        background-color: #3e8e41;
+      }
+
+      .btn-group .button9 {
+        background-color: #31247a; /* Green */
+        border: 1px solid green;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        float: left;
+      }
+      
+      .btn-group .button9:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      
+      .btn-group .button9:hover {
+        background-color: #3e8e41;
+      }
+
+      .button7 {
+        background-color: #391953; 
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      
+      .disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+      }
+
+      .container2 {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+      }
+      
+      .container2 img {
+        width: 100%;
+        height: auto;
+      }
+      
+      .container2 .btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #f1f1f1;
+        color: black;
+        font-size: 16px;
+        padding: 16px 30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+      }
+      
+      .container2 .btn:hover {
+        background-color: rgb(134, 187, 9);
+        color: rgb(53, 3, 3);
+      }
+
